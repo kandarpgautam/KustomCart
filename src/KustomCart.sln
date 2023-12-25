@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KustomCart.Web", "KustomCart.Web\KustomCart.Web\KustomCart.Web.csproj", "{1CD17EBF-45F9-4131-815E-0C4F96B990F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KustomCart.Web.Client", "KustomCart.Web\KustomCart.Web.Client\KustomCart.Web.Client.csproj", "{48FEFAEB-D549-456A-9C2E-CE00B371024E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CD17EBF-45F9-4131-815E-0C4F96B990F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD17EBF-45F9-4131-815E-0C4F96B990F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD17EBF-45F9-4131-815E-0C4F96B990F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD17EBF-45F9-4131-815E-0C4F96B990F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FEFAEB-D549-456A-9C2E-CE00B371024E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FEFAEB-D549-456A-9C2E-CE00B371024E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FEFAEB-D549-456A-9C2E-CE00B371024E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FEFAEB-D549-456A-9C2E-CE00B371024E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {962969DB-B7F2-4394-8947-61174271D0AB}
+	EndGlobalSection
+EndGlobal
