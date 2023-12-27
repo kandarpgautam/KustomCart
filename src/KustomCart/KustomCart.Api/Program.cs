@@ -1,6 +1,18 @@
+
+var corsPolicy = "AllowedOriginsCorsPolicy";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(corsPolicy,
+                      policy =>
+                      {
+                          policy.WithOrigins("https://theconvenestudio.com", "https://localhost:7055","*");
+                      });
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -17,6 +29,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(corsPolicy);
 
 app.UseAuthorization();
 

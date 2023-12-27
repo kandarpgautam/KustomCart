@@ -1,4 +1,4 @@
-namespace KustomCart.Api
+namespace KustomCart.Shared
 {
     public class WeatherForecast
     {
