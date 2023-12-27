@@ -19,7 +19,7 @@ namespace KustomCart.Api.Controllers
             _logger = logger;
         }
 
-        [HttpGet("GetWeatherForecast")]
+        [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

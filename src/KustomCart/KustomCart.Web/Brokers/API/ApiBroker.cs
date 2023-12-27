@@ -2,7 +2,7 @@
 
 namespace KustomCart.Web.Brokers.API
 {
-    public class ApiBroker : IApiBroker
+    public partial class ApiBroker : IApiBroker
     {
         public ApiBroker(IRESTFulApiFactoryClient apiClient)
         {
